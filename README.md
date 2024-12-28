@@ -21,3 +21,9 @@ As part of this project, the source data in the S3 bucket in JSON format is proc
 
 ### Post-ETL SQL Query in Redshift Serverless
 ![Redshift Query](images/Redshift_Serverless_post_ETL_query.png "This is an image of a SQL query in Redshift")
+
+### Potential Improvements
+
+The following security imporvements could be consider in the production pipelines:
+- In order to improve security of AWS access keys and secrets in the StageToRedshiftOperator, use IAM roles with appropriate permissions instead of aws credentials id.
+- Futher parameterize queries to prevent SQL injection. Modify the execute methods in LoadDimensionOperator, LoadFactOperator, and StageToRedshiftOperator to use parameterized queries.
