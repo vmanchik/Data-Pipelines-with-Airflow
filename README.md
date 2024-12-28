@@ -24,6 +24,6 @@ As part of this project, the source data in the S3 bucket in JSON format is proc
 
 ### Potential Improvements
 
-The following security imporvements could be consider in the production pipelines:
-- In order to improve security of AWS access keys and secrets in the StageToRedshiftOperator, use IAM roles with appropriate permissions instead of aws credentials id.
-- Futher parameterize queries to prevent SQL injection. Modify the execute methods in LoadDimensionOperator, LoadFactOperator, and StageToRedshiftOperator to use parameterized queries.
+The following security improvements could be considered in the production pipelines:
+- In order to improve the security of AWS access keys and secrets in the StageToRedshiftOperator, use IAM roles with appropriate permissions instead of AWS credentials ID.
+- Further parameterize queries to prevent SQL injection. Modify the execute methods in LoadDimensionOperator, LoadFactOperator, and StageToRedshiftOperator to use parameterized queries.
