@@ -1,12 +1,19 @@
-# Project: Data-Pipelines-with-Airflow
-This project involves building data pipelines using Apache Airflow for Sparkify, a music streaming company, as part of Udacity Data Engineering with AWS program. The pipelines consist of reusable tasks.
+# Project: Data Pipelines with Apache Airflow
 
-The pipelines perform ETL process by moving data stored in JSON format in S3 to Amazon Redshift. The process involved building Apache Airflow custom operators to perform staging of the data, inserting data into Redshift, and running data quality checks. The steps involved are:
+As part of this project, the source data in S3 bucket in JSON format is procesed and loaded into a data warehouse in Amazone Redshift Serverless. The pipelines consist of reusable tasks and are built using
+the TaskFlow API paradigm introduced as part of Apache Airflow 2.0.  The pipeline development process involved setting up the Redshift intance, configuring reshift role, copying raw data into s3 buckets, building Apache Airflow custom operators to perform staging of the data in local dvelopment invironment using VS Code and Docker image, trigering the data pipline in the Airflow ui to insert data into Redshift and run data quality checks, finally querying data in AWS Redshift to confirm that data have been successfully loaded.
+
+### Steps
+
   - Create an IAM user in AWS
   - Configure Redshift Serverless
-  - Connect Apache Airflow to AWS using AWS Credentials
-  - Connect Apache Airflow to AWS Redshift
+  - Store AWS Credentials in Airflow UI
+  - Store Reshift connection endpoint in Ariflow UI
   - Copy log_data and song_data to an S3 bucket
-  - Use the project starter and with the DAG template, the operators, and helper class folders
+  - Use the project starter and with the DAG template, the operators, and helper code
   - Configure the DAG with the data quality checks
   - Ensure that the DAG runs successfully
+
+## DAG Graph
+![DAGE graph](images/dag_graph/"Optional title")
+
