@@ -31,7 +31,7 @@ class LoadDimensionOperator(BaseOperator):
                  redshift_conn_id="redshift",
                  table="",
                  sql="",
-                 truncate=False,
+                 truncate=True,
                  *args, **kwargs):
 
         super(LoadDimensionOperator, self).__init__(*args, **kwargs)
