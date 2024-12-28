@@ -10,7 +10,7 @@ As part of this project, the source data in the S3 bucket in JSON format is proc
 - Store Redshift connection endpoint in Airflow UI
 - Copy log_data and song_data to an S3 bucket
 - Download the project template from [GitHub repository](https://github.com/udacity/cd12380-data-pipelines-with-airflow)
-- Clone teh GitHub repository inside a Docker Airflow container
+- Clone the GitHub repository inside a Docker Airflow container
 - Use VS Code to edit the files and manage Airflow
 - Use the project starter with the DAG template, the operators, and helper code 
 - Configure the DAG with the data quality checks
