@@ -1,6 +1,6 @@
 # Project: Data Pipelines with Apache Airflow
 
-As part of this project, the source data in the S3 bucket in JSON format is processed and loaded into a data warehouse in Amazon Redshift Serverless. The pipelines consist of reusable tasks and are built using the TaskFlow API paradigm introduced as part of Apache Airflow 2.0. The pipeline development process involved setting up the Redshift instance, configuring a Redshift role, and copying raw data into the S3 bucket.  Below are more detailed description of the steps.
+As part of this project, the source data in the S3 bucket in JSON format is processed and loaded into a data warehouse in Amazon Redshift Serverless. The pipelines consist of reusable tasks and are built using the TaskFlow API paradigm introduced as part of Apache Airflow 2.0. The pipeline development process involved setting up the Redshift instance, configuring Redshift roles, and copying raw data into the S3 bucket.
 
 ### Steps
 
@@ -9,7 +9,10 @@ As part of this project, the source data in the S3 bucket in JSON format is proc
 - Store AWS Credentials in Airflow UI
 - Store Redshift connection endpoint in Airflow UI
 - Copy log_data and song_data to an S3 bucket
-- Use the project starter with the DAG template, the operators, and helper code
+- Download the project template from [GitHub repository](https://github.com/udacity/cd12380-data-pipelines-with-airflow)
+- Clone teh GitHub repository inside a Docker Airflow container
+- Use VS Code to edit the files and manage Airflow
+- Use the project starter with the DAG template, the operators, and helper code 
 - Configure the DAG with the data quality checks
 - Ensure that the DAG runs successfully
 
