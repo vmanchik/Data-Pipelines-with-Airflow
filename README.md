@@ -15,5 +15,5 @@ the TaskFlow API paradigm introduced as part of Apache Airflow 2.0.  The pipelin
   - Ensure that the DAG runs successfully
 
 ## DAG Graph
-![DAGE graph](images/dag_graph/"Optional title")
+![DAGE graph](images/DAG_graph.png/"Optional title")
 
