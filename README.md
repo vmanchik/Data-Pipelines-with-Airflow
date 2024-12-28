@@ -15,8 +15,10 @@ the TaskFlow API paradigm introduced as part of Apache Airflow 2.0.  The pipelin
   - Ensure that the DAG runs successfully
 
 ### DAG Graph
-![DAG Graph](images/DAG_graph.png "This is image of final project DAG graph")
+![DAG Graph](images/DAG_graph.png "This is an image of final project DAG graph")
 
 ### Airflow Successful Run
-![Successful Run of DAG](images/Airflow_successful_run.png "This is image of successful run of final projct DAG process")
+![Successful Run of DAG](images/Airflow_successful_run.png "This is an image of successful run of final projct DAG process")
 
+### Post-ETL SQL Query in Redshift Serverless
+![Redshift Query](images/Redshift_Serverless_post_ETL_query.png "This is and image of SQL query in Redshift")
