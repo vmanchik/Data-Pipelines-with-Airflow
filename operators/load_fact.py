@@ -27,7 +27,7 @@ class LoadFactOperator(BaseOperator):
                  redshift_conn_id="redshift",
                  table="",
                  sql="",
-                 truncate=False,
+                 truncate=True,
                  *args, **kwargs):
 
         super(LoadFactOperator, self).__init__(*args, **kwargs)
