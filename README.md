@@ -1,6 +1,6 @@
 # Project: Data Pipelines with Apache Airflow
 
-As part of this project, the source data in the S3 bucket in JSON format is processed and loaded into a data warehouse in Amazon Redshift Serverless. The pipelines consist of reusable tasks and are built using the TaskFlow API paradigm introduced as part of Apache Airflow 2.0. The pipeline development process involved setting up the Redshift instance, configuring Redshift roles, and copying raw data into the S3 bucket.
+As part of this project, the source data in the S3 bucket in JSON format is processed and loaded into a data warehouse in Amazon Redshift Serverless. The pipelines consist of reusable tasks and are built using the TaskFlow API paradigm introduced as part of Apache Airflow 2.0. The pipeline development process involved setting up the Redshift instance, configuring a Redshift role, and copying raw data into the S3 bucket.  Below are more detailed description of the steps.
 
 ### Steps
 
