@@ -14,6 +14,9 @@ the TaskFlow API paradigm introduced as part of Apache Airflow 2.0.  The pipelin
   - Configure the DAG with the data quality checks
   - Ensure that the DAG runs successfully
 
-## DAG Graph
-![DAG Graph](images/DAG_graph.png "Optional title")
+### DAG Graph
+![DAG Graph](images/DAG_graph.png "This is image of final project DAG graph")
+
+### Airflow Successful Run
+![Successful Run of DAG](images/Airflow_successful_run.png "This is image of successful run of final projct DAG process")
 
